@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    background-color: lightyellow;
+}
+header{
+    border: 2px solid blue;
+    padding: 100px;
+}
+main{
+    display: grid;
+    border: 2px solid blue;
+    padding: 20px;
+}
+footer{
+    border: 2px solid blue;
+}
+.first_row{
+    margin: 0 auto;
+}
+.second_row{
+    margin: 0 auto;
+}
+#content{
+    display: flex;
+    position: relative;
+    bottom: 85px;
+    right: 75px;
+}
+.left{
+    border: 3px solid green;
+}
+.describe{
+    margin: 10px;
+}
+.title{
+    color: darkgrey;
+    size: 20px;
+}
+footer>p{
+    text-indent: 1.5em;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 40px;
+}
